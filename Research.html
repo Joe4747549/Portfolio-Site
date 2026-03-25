@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Research | D. Joseph Carpenter</title>
+		<meta name="description" content="Data analytics portfolio of D. Joseph Carpenter featuring statistical modeling, survey analysis, dashboards, and data-driven insights." />
+		<meta name="theme-color" content="#111111">
+		<meta property="og:title" content="Research | D. Joseph Carpenter">
+		<meta property="og:description" content="Research portfolio featuring disability studies, resilience, teaching assistant research, and applied analysis.">
+		<meta property="og:image" content="Headshot.jpg">
+		<link rel="icon" type="image/png" href="UTC logo.png">
+		<link rel="stylesheet" href="site.css">
+		<style>
+			.research-section {padding: 56px 0;}
+			.research-item {display: flex; gap: 24px; margin-bottom: 14px; align-items: flex-start;}
+			.research-label {
+				width: 165px;
+				font-weight: 700;
+				flex-shrink: 0;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				font-size: 12px;
+				color: #ffd54f;
+				padding-top: 3px;
+			}
+			.research-content {flex: 1; text-align: justify; color: #e5e5e5; line-height: 1.68;}
+			.reference-list {list-style-type: none; padding-left: 0;}
+			.reference-list li {
+				margin-bottom: 12px;
+				padding: 0 0 12px 20px;
+				text-indent: -20px;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			.reference-list li:last-child {margin-bottom: 0; padding-bottom: 0; border-bottom: 0;}
+			.research-intro {margin-bottom: 30px;}
+			.research-project {
+				background: linear-gradient(180deg, #3a3a3a 0%, #313131 100%);
+				padding: 26px;
+				border-radius: 14px;
+				margin-bottom: 28px;
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
+				transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+			}
+			.research-project:hover {
+				transform: translateY(-2px);
+				border-color: rgba(255, 213, 79, 0.3);
+				box-shadow: 0 18px 38px rgba(0, 0, 0, 0.22);
+			}
+			.research-project h2 {
+				margin-top: 0;
+				margin-bottom: 18px;
+				font-size: 25px;
+				line-height: 1.25;
+				padding-bottom: 10px;
+				border-bottom: 1px solid rgba(255, 213, 79, 0.28);
+			}
+			.research-skills {margin-top: 36px;}
+			.research-skills ul {font-size: 17px;}
+			.research-skills li {margin-bottom: 8px; color: #e5e5e5;}
+			@media (max-width: 767px) {
+				.research-section {padding: 35px 0;}
+				.research-item {display: block; margin-bottom: 16px;}
+				.research-label {width: auto; display: block; margin-bottom: 8px; padding-top: 0;}
+				.research-content {text-align: left;}
+				.research-intro {font-size: 16px; margin-bottom: 25px;}
+				.research-project {padding: 20px; margin-bottom: 22px;}
+				.research-project h2 {font-size: 22px; margin-bottom: 16px;}
+				.research-skills ul {font-size: 16px; padding-left: 20px;}
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#main-content" class="skip-link">Skip to main content</a>
+		<nav class="navbar navbar-inverse" aria-label="Primary">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" aria-controls="site-navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">D. Joseph Carpenter</a>
+			</div>
+			<div class="collapse navbar-collapse" id="site-navbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About_me.html">About Me</a></li>
+				<li class="dropdown active">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Projects <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li class="active"><a href="Research.html" aria-current="page">Research <span class="sr-only">(current)</span></a></li>
+						<li><a href="Dashboards.html">Dashboards</a></li>
+						<li><a href="appDev.html">Application Development</a></li>
+					</ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="Blog.html">Blog</a></li>
+				<li class="dropdown">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contact <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="Contact_Info.html">Contact Information</a></li>
+						<li><a href="Resume_CV.html">Resume/CV</a></li>
+						<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+						<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="Send_Message.html">Send a Message</a></li>
+					</ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<main id="main-content">
+		  <div class="research-section">
+			<div class="container">
+			  <h1>Research</h1>
+			  <p class="research-intro">
+				This page highlights selected research projects focused on study design,
+				data analysis, statistical modeling, and evidence-based interpretation.
+			  </p>
+			  <section class="research-project">
+				  <h2>Perceptions of Instructors with Disabilities</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  Are student perceptions of competence lower for instructors with a visible disability than for an instructor without a disability?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  Participants were randomly assigned to one of two video lectures embedded in an online Qualtrics survey. The instructor posed as an individual with visual impairment in one video, while the instructor did not have a visible disability in the other video. The videos were followed by measures of lecture perceptions, warmth, competence, and the Interaction with Disabled Persons Scale. Experiment 2 refined the measures and lecture videos and added the Marlowe-Crowne Social Desirability Scale.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  In both iterations of the experiment students of the instructor with a visible disability had greater perceptions of competence than the students of the instructor without a disability. Students of the instructor with the disability may have also had more positive perceptions of the lecture material than students of the instructor without a disability.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  These findings are important because they contradict literature related to the stereotype content model and disability. According to the stereotype content model individuals with disabilities are meant to be perceived high warmth and low competence.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  SPSS: Analysis of Variance with Covariates, Multivariate Analysis of Variance with Covariates
+					  <br/>
+					  R: Bayesian Multivariate Regression Modeling
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Shelton, J. T., Robinson, M., Carpenter, D. J., &amp; Lesswing, A. (2023, November 16-19). <em>Perceptions of the disability community and initiatives to promote inclusivity</em> [Invited symposium presentation]. Psychonomic Society, San Francisco, CA, United States.</li>
+							<li>Carpenter, D. J., Robinson, M., J., Lesswing, A. &amp; Shelton, J. T. (2024, March 13-16). <em>Perceptions of disabled instructors</em> [Poster presentation]. South Eastern Psychological Association, Orlando, FL, United States.</li>
+							<li>Carpenter, D. J., Robinson, M., J., Lesswing, A., Alarcon S., &amp; Shelton, J. T. (2024, April 11). <em>Perceptions of disabled instructors</em> [Poster presentation]. UTC Research and Arts Conference, Chattanooga, TN, United States.</li>
+							<li>Carpenter, D. J., Robinson, M. J., Lesswing, A., Smith, B., &amp; Shelton, J. T. (2024, October 4). <em>Perceptions of disabled instructors</em> [Presentation]. UTC Psychology Department First Friday Research Talk, Chattanooga, TN, United States.</li>
+							<li>Carpenter, D. J., Smith, B. C., Robinson, M. J., Lesswing, A., Alarcon, S., &amp; Shelton, J. T. (2025, April 9). <em>Perceptions of disabled instructors</em> [Poster presentation]. UTC Research and Arts Conference, Chattanooga, TN, United States.</li>
+							<li>Carpenter, D. J., Smith, B. C., Robinson, M. J., Lesswing, A., Alarcon, S., &amp; Shelton, J. T. (2025, November 20-23). <em>Perceptions of disabled instructors</em> [Poster presentation]. Psychonomic Society Annual Convention, Denver, CO, United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">Carpenter, D. J., Smith, B. C., Robinson, M. J., Lesswing, A., Alarcon, S., &amp; Shelton, J. T. <em>Perceptions of disabled instructors</em> [Manuscript in preparation].</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>Exploring Factors That Contribute to Resilience in Individuals with Disability</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  Are individuals with disabilities who are higher in need for cognition also more resilient, and do attitudes toward technology strengthen that relationship?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  Adults with disabilities completed an anonymous online survey distributed through Cloud Research/Amazon MTurk and disability listservs. The study used the Need for Cognition Scale, the Connor-Davidson Resilience Scale, and an adapted Computer Technology Use Scale to evaluate how cognitive style and attitudes toward technology related to resilience.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  Need for cognition had a small to moderate positive relationship with resilience, suggesting that individuals who are more likely to engage in effortful thinking also tended to report greater resilience. Attitudes toward technology did not significantly predict resilience and did not moderate the relationship between need for cognition and resilience. Exploratory analyses also showed that resilience differed across disability groups, with participants reporting psychiatric disabilities showing lower resilience on average than participants in the physical or sensory disability groups.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  These findings are important because they support a strengths-based approach to disability research by identifying cognitive characteristics associated with resilience rather than focusing only on negative outcomes. The project also helps clarify that technology attitudes alone may not explain resilient outcomes, which can guide future work toward more specific mechanisms such as problem solving, coping, and access to supportive resources.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  SPSS: Pearson Correlation, Moderation Analysis with PROCESS, Multiple Regression, and One-Way Analysis of Variance
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Carpenter, D. J., Smith, B. C., Hicks, B. L., Schaublin, M., Pardue, S., Shelton, J. T., &amp; Frazier, L. D. (2025, May 22-25). <em>The relationship of need for cognition and resilience in individuals with disability</em> [Poster presentation]. APS Annual Convention, Washington, D.C., United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">Carpenter, D. J. (2025). <em>Exploring factors that contribute to resilience in individuals with disability</em> [Master's thesis, University of Tennessee at Chattanooga]. UTC Scholar. Carpenter, D. J., Smith, B. C., Hicks, B. L., Schaublin, M., Pardue, S., Shelton, J. T., &amp; Frazier, L. D. <em>Exploring factors that contribute to resilience in individuals with disability</em> [Manuscript in preparation].</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>Navigating Challenges and Growth as an Undergraduate Teaching Assistant</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  What motivates undergraduate teaching assistants, what challenges do they encounter in the role, and what advice do they offer for future teaching assistants?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This study used qualitative analysis of discussion board posts from 92 undergraduate teaching assistants enrolled in a Teaching of Psychology course across two semesters. Students reflected on what they were excited or nervous about, the challenges they faced during the semester, and the advice they would give to future UTAs. The responses were analyzed using reflexive thematic analysis.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  Thematic analysis revealed three broad themes: drivers of engagement and fulfillment, obstacles and role demands, and lessons learned for future success. UTAs described personal growth, professional skill development, and relationship building as major sources of motivation, while also reporting challenges related to time management, role ambiguity, grading, student engagement, and emotional labor. Their recommendations emphasized proactive communication, structured support, and practical strategies for managing responsibilities and building confidence in the role.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  These findings are important because they provide a more immediate view of the undergraduate teaching assistant experience than post-hoc reflections alone. The project highlights how faculty mentorship, clear expectations, and structured support can improve the experience for UTAs while also strengthening student engagement and instructional support in higher education.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Qualitative Research: Reflexive Thematic Analysis with In Vivo Coding and Cross-Semester Theme Synthesis
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Walker, R. V., Wells, S., Shelton, J., Barger, H., Carpenter, D. J., &amp; Hicks, L. (2025, October). <em>Strengthening undergraduate teaching assistant programs: Competency development, lived experience, and student impact</em> [Poster presentation]. Society of Teaching in Psychology Annual Conference on Teaching, Minneapolis, MN, United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">Barger, H., Carpenter, D. J., Walker, R. V., Wells, S., &amp; Shelton, J. T. <em>I am most excited about helping others: Navigating challenges and growth as an undergraduate teaching assistant</em> [Manuscript in preparation].</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>Uncovering the Role of Disability Identity Dynamics and Support Networks for Promoting Psychological Well-Being</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  How do disability identity dynamics and support networks relate to psychological well-being in individuals with disabilities?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This collaborative project is currently represented in my CV through a conference paper presentation. Additional details on design, measures, and sample can be expanded from the project materials as needed.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  The current CV indicates this project examines how disability identity and support systems may contribute to psychological well-being. A fuller findings summary can be added once the presentation materials are incorporated.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  This project reflects a strengths-based approach to disability research by focusing on identity and support processes that may promote better psychological outcomes.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Conference paper project; analytic details can be added from the presentation or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Hicks, B. L., Schaublin, M. J., Carpenter, D. J., Pardue, S. S., Smith, B. C., Frazier, L. D., &amp; Shelton, J. T. (2025, April 9-12). <em>Uncovering the role of disability identity dynamics and support networks for promoting psychological well-being</em> [Paper presentation]. Southeastern Psychological Association Conference, Atlanta, GA, United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">No publication listed in the current CV.</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>Be True to Your Differences: The Impact of Neurodivergent Acceptance on Meaning and Self-Compassion</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  How does neurodivergent acceptance relate to meaning and self-compassion?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This collaborative project is currently represented in my CV through a conference poster presentation. Additional methodological detail can be added once the poster or manuscript materials are available.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  Based on the project title, this study examines whether neurodivergent acceptance is associated with more positive self-perceptions and meaning-making outcomes.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  This project is important because it focuses on affirming identity-related processes that may support well-being among neurodivergent individuals.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Conference poster project; analytic details can be added from the poster or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Hicks, B. L., Schaublin, M., Carpenter, D. J., Pardue, S., Smith, B. C., Frazier, L. D., &amp; Shelton, J. T. (2025, May 22-25). <em>Be true to your differences: The impact of neurodivergent acceptance on meaning and self-compassion</em> [Poster presentation]. APS Annual Convention, Washington, D.C., United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">No publication listed in the current CV.</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>The Relationship Between a Sense of Agency and Perceived Stigma in Individuals with Cognitive Disabilities</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  What is the relationship between sense of agency and perceived stigma in individuals with cognitive disabilities?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This collaborative project is currently represented in my CV through a conference poster presentation. Additional design and measure information can be added from the poster materials if you want this section expanded later.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  The current CV title indicates this project examines how agency and stigma may be connected in the context of cognitive disability.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  This research is important because it can help clarify how internal perceptions and external stigma relate to adaptation and well-being in individuals with cognitive disabilities.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Conference poster project; analytic details can be added from the poster or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Pardue, S., Hicks, B. L., Carpenter, D. J., Schaublin, M., Smith, B. C., Shelton, J. T., &amp; Frazier, L. D. (2025, May 22-25). <em>The relationship between a sense of agency and perceived stigma in individuals with cognitive disabilities</em> [Poster presentation]. APS Annual Convention, Washington, D.C., United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">No publication listed in the current CV.</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>Building Resilience in Individuals with Disabilities: The Influence of Self-Perceptions of Aging and Stress</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  How do self-perceptions of aging and stress relate to resilience in individuals with disabilities?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This collaborative project is currently represented in my CV through a conference poster presentation. Additional methodological details can be added from the poster or manuscript materials as they become available.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  Based on the title, this study examines whether perceptions of aging and stress are associated with resilience outcomes in individuals with disabilities.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  This project extends resilience research by considering how self-perceptions and stress-related processes may shape adaptive outcomes in disability contexts.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Conference poster project; analytic details can be added from the poster or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Smith, B. C., Carpenter, D. J., Hicks, B. L., Schaublin, M., Pardue, S., Shelton, J. T., &amp; Frazier, L. D. (2025, May 22-25). <em>Building resilience in individuals with disabilities: The influence of self-perceptions of aging and stress</em> [Poster presentation]. APS Annual Convention, Washington, D.C., United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">No publication listed in the current CV.</div>
+				  </div>
+				</section>
+			  <section class="research-project">
+				  <h2>The Interaction Between Resilience and Social Support Among Individuals with Disabilities</h2>
+				  <div class="research-item">
+					<div class="research-label">Research Question:</div>
+					<div class="research-content">
+					  How are resilience and social support related among individuals with disabilities?
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Methods:</div>
+					<div class="research-content">
+					  This collaborative project is currently represented in my CV through a conference poster presentation. Additional methodological details can be added from the poster or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Key Findings:</div>
+					<div class="research-content">
+					  The current CV title indicates this project examines how resilience and social support interact in disability-related outcomes.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Why It Matters:</div>
+					<div class="research-content">
+					  This project is important because social support is often a key protective factor, and understanding its relationship with resilience can help guide future intervention and support work.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Analyses Used:</div>
+					<div class="research-content">
+					  Conference poster project; analytic details can be added from the poster or manuscript materials.
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Presentations:</div>
+					<div class="research-content">
+						<ul class="reference-list">
+							<li>Hicks, B. L., Schaublin, M. J., Carpenter, D. J., Pardue, S. S., Smith, B. C., Frazier, L. D., &amp; Shelton, J. T. (2025, April 6-8). <em>The interaction between resilience and social support among individuals with disabilities</em> [Poster presentation]. Life Paths Research Center ResilienceCon, Nashville, TN, United States.</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="research-item">
+					<div class="research-label">Publications:</div>
+					<div class="research-content">No publication listed in the current CV.</div>
+				  </div>
+				</section>
+			  <section class="research-project research-skills">
+				  <h2>Methods and Analytical Strengths</h2>
+				  <ul>
+					<li>Survey design and analysis</li>
+					<li>Statistical modeling (frequentist and Bayesian)</li>
+					<li>Experimental research design</li>
+					<li>Data interpretation and reporting</li>
+					<li>Data visualization and dashboards</li>
+				  </ul>
+				</section>
+			</div>
+		  </div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>D. Joseph Carpenter</h4>
+						<p>Data Analyst and Researcher focused on statistical modeling, survey analysis, and dashboards.</p>
+					</div>
+					<div class="col-md-4">
+						<h4>Quick Links</h4>
+						<ul class="footer-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About_me.html">About</a></li>
+							<li><a href="Research.html">Research</a></li>
+							<li><a href="Dashboards.html">Dashboards</a></li>
+							<li><a href="appDev.html">Application Development</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<ul class="footer-links">
+							<li>Email: <a href="mailto:daniel-carpenter@utc.edu">daniel-carpenter@utc.edu</a></li>
+							<li>Phone: (xxx)xxx-xxxx</li>
+							<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+							<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+							<li><a href="Send_Message.html">Send a Message</a></li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="text-center">
+					<p>&copy; 2026 Daniel Joseph Carpenter. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="site.js"></script>
+	</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dashboards | D. Joseph Carpenter</title>
+		<meta name="description" content="Dashboard portfolio page for D. Joseph Carpenter featuring interactive reporting and data visualization projects." />
+		<meta name="theme-color" content="#111111">
+		<meta property="og:title" content="Dashboards | D. Joseph Carpenter">
+		<meta property="og:description" content="Interactive dashboard portfolio ready for Tableau, Power BI, Shiny, and custom reporting work.">
+		<meta property="og:image" content="Headshot.jpg">
+		<link rel="icon" type="image/png" href="UTC logo.png">
+		<link rel="stylesheet" href="site.css">
+		<style>
+			.dashboard-intro-grid {align-items: stretch;}
+			.platform-card p,
+			.dashboard-card p,
+			.dashboard-card li,
+			.embed-card p,
+			.process-card p,
+			.embed-placeholder p {color: #d7d7d7;}
+			.dashboard-grid,
+			.platform-grid,
+			.process-grid {margin-top: 10px;}
+			.dashboard-card,
+			.platform-card,
+			.process-card,
+			.embed-card {height: 100%;}
+			.dashboard-meta,
+			.platform-list,
+			.checklist {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.dashboard-meta li,
+			.platform-list li,
+			.checklist li {
+				padding: 10px 0;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			.dashboard-meta li:last-child,
+			.platform-list li:last-child,
+			.checklist li:last-child {border-bottom: 0; padding-bottom: 0;}
+			.dashboard-meta strong,
+			.platform-list strong {color: #ffffff;}
+			.dashboard-actions {margin-top: 18px;}
+			.embed-placeholder {
+				min-height: 260px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				border: 1px dashed rgba(255, 213, 79, 0.35);
+				border-radius: 16px;
+				background:
+					linear-gradient(135deg, rgba(255, 213, 79, 0.06), rgba(255, 255, 255, 0.02));
+				padding: 24px;
+			}
+			.section-label {
+				display: inline-block;
+				margin-bottom: 14px;
+				color: #ffd54f;
+				font-size: 0.8rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.12em;
+			}
+			.muted-kicker {
+				color: #f0f0f0;
+				font-size: 18px;
+				line-height: 1.75;
+				max-width: 62ch;
+			}
+			@media (max-width: 767px) {
+				.muted-kicker {font-size: 16px;}
+				.embed-placeholder {min-height: 220px; padding: 20px;}
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#main-content" class="skip-link">Skip to main content</a>
+		<nav class="navbar navbar-inverse" aria-label="Primary">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" aria-controls="site-navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">D. Joseph Carpenter</a>
+			</div>
+			<div class="collapse navbar-collapse" id="site-navbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About_me.html">About Me</a></li>
+				<li class="dropdown active">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Projects <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="Research.html">Research</a></li>
+						<li class="active"><a href="Dashboards.html" aria-current="page">Dashboards <span class="sr-only">(current)</span></a></li>
+						<li><a href="appDev.html">Application Development</a></li>
+					</ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="Blog.html">Blog</a></li>
+				<li class="dropdown">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contact <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="Contact_Info.html">Contact Information</a></li>
+						<li><a href="Resume_CV.html">Resume/CV</a></li>
+						<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+						<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="Send_Message.html">Send a Message</a></li>
+					</ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<main id="main-content">
+			<div class="page-section">
+				<div class="container">
+					<p class="eyebrow">Interactive Work</p>
+					<h1>Dashboards</h1>
+					<p class="page-intro">This page is set up for dashboard case studies, reporting workflows, and interactive projects built to make data easier to explore and explain.</p>
+
+					<div class="row dashboard-intro-grid">
+						<div class="col-md-7">
+							<section class="surface-card content-card" aria-labelledby="dashboard-ready-title">
+								<h2 id="dashboard-ready-title">What This Page Is Ready For</h2>
+								<p class="muted-kicker">You can use this layout for Tableau, Power BI, Shiny, JavaScript dashboards, or static reporting pages. Each project card below already has slots for the problem, audience, tools, screenshot, code notes, and a live link.</p>
+								<ul class="checklist">
+									<li>Add a public Tableau link or embed once a dashboard is published.</li>
+									<li>Swap placeholder summaries with the real project question, workflow, and insights.</li>
+									<li>Attach R, SQL, or Python code notes to the projects where they matter most.</li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-md-5">
+							<section class="platform-card surface-card content-card" aria-labelledby="dashboard-platforms-title">
+								<h2 id="dashboard-platforms-title">Platforms You Can Feature</h2>
+								<ul class="platform-list">
+									<li><strong>Tableau Public:</strong> Public dashboards, story views, and interactive filters.</li>
+									<li><strong>Power BI:</strong> Published reports, screenshots, and write-ups of the data model.</li>
+									<li><strong>R Shiny:</strong> Interactive apps tied to research or statistical workflows.</li>
+									<li><strong>Custom Web Dashboards:</strong> HTML, CSS, and JavaScript builds hosted like the rest of this site.</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+
+					<div class="page-section-tight">
+						<span class="section-label">Featured Templates</span>
+						<div class="row dashboard-grid">
+							<div class="col-md-6">
+								<section class="dashboard-card surface-card content-card" aria-labelledby="dashboard-template-1">
+									<h2 id="dashboard-template-1">[Dashboard Project 1]</h2>
+									<p>Use this slot for a dashboard you want to feature prominently on the site.</p>
+									<ul class="dashboard-meta">
+										<li><strong>Problem:</strong> [What question or reporting need did this dashboard address?]</li>
+										<li><strong>Audience:</strong> [Who was this built for?]</li>
+										<li><strong>Data Source:</strong> [Survey, CSV, API, SQL database, manual data entry, etc.]</li>
+										<li><strong>Tools Used:</strong> [Tableau / Power BI / R Shiny / JavaScript / SQL / Excel]</li>
+										<li><strong>Key Insight:</strong> [What was the most important takeaway?]</li>
+										<li><strong>Code or Logic:</strong> [Optional note about calculations, joins, cleaning, or scripting.]</li>
+									</ul>
+									<div class="button-row dashboard-actions">
+										<button type="button" class="btn btn-primary btn-disabled" disabled aria-label="Live dashboard link coming soon">Live Dashboard</button>
+										<button type="button" class="btn btn-default btn-disabled" disabled aria-label="Project notes link coming soon">Project Notes</button>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-6">
+								<section class="dashboard-card surface-card content-card" aria-labelledby="dashboard-template-2">
+									<h2 id="dashboard-template-2">[Dashboard Project 2]</h2>
+									<p>Use this slot for a second dashboard, alternate reporting tool, or a dashboard tied to one of your research projects.</p>
+									<ul class="dashboard-meta">
+										<li><strong>Problem:</strong> [What did users need to understand quickly?]</li>
+										<li><strong>Audience:</strong> [Who would use this?]</li>
+										<li><strong>Data Source:</strong> [Research dataset, public data, internal reporting data, etc.]</li>
+										<li><strong>Tools Used:</strong> [Tableau / R / SQL / JavaScript / Python]</li>
+										<li><strong>Key Insight:</strong> [What patterns or trends did this surface?]</li>
+										<li><strong>Relevant Code:</strong> [Link this to any R or SQL work that supports the dashboard.]</li>
+									</ul>
+									<div class="button-row dashboard-actions">
+										<button type="button" class="btn btn-primary btn-disabled" disabled aria-label="Second live dashboard link coming soon">Live Dashboard</button>
+										<button type="button" class="btn btn-default btn-disabled" disabled aria-label="Supporting code link coming soon">Supporting Code</button>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-section-tight">
+						<section class="embed-card surface-card content-card" aria-labelledby="embed-ready-title">
+							<h2 id="embed-ready-title">Embed-Ready Area</h2>
+							<p>When you publish a Tableau Public dashboard or another embeddable report, this section is ready to hold a screenshot, live iframe, or a hosted interactive panel.</p>
+							<div class="embed-placeholder" aria-label="Placeholder area for future dashboard embed">
+								<div>
+									<p><strong>Future Dashboard Embed</strong></p>
+									<p>Replace this area with a Tableau embed, Power BI embed, Shiny app, or a large screenshot linked to the live report.</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<div class="page-section-tight">
+						<span class="section-label">Workflow Notes</span>
+						<div class="row process-grid">
+							<div class="col-md-4">
+								<section class="process-card surface-card content-card" aria-labelledby="workflow-step-1">
+									<h2 id="workflow-step-1">Data Prep</h2>
+									<p>Use this area to mention cleaning steps, joins, reshaping, calculated fields, or reproducible prep work in R, SQL, or Python.</p>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="process-card surface-card content-card" aria-labelledby="workflow-step-2">
+									<h2 id="workflow-step-2">Design Choices</h2>
+									<p>Explain how you chose chart types, filters, interactions, labels, or KPI cards to keep the dashboard readable and decision-focused.</p>
+								</section>
+							</div>
+							<div class="col-md-4">
+								<section class="process-card surface-card content-card" aria-labelledby="workflow-step-3">
+									<h2 id="workflow-step-3">Code Connections</h2>
+									<p>Link dashboard work back to relevant analysis code, especially if you want to show R scripts, SQL queries, or reusable reporting logic.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>D. Joseph Carpenter</h4>
+						<p>Data Analyst and Researcher focused on statistical modeling, survey analysis, and dashboards.</p>
+					</div>
+					<div class="col-md-4">
+						<h4>Quick Links</h4>
+						<ul class="footer-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About_me.html">About</a></li>
+							<li><a href="Research.html">Research</a></li>
+							<li><a href="Dashboards.html">Dashboards</a></li>
+							<li><a href="appDev.html">Application Development</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<ul class="footer-links">
+							<li>Email: <a href="mailto:daniel-carpenter@utc.edu">daniel-carpenter@utc.edu</a></li>
+							<li>Phone: (xxx)xxx-xxxx</li>
+							<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+							<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+							<li><a href="Send_Message.html">Send a Message</a></li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="text-center">
+					<p>&copy; 2026 Daniel Joseph Carpenter. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="site.js"></script>
+	</body>
+</html>

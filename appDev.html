@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Application Development | D. Joseph Carpenter</title>
+		<meta name="description" content="Application development portfolio page for D. Joseph Carpenter featuring web and software project work." />
+		<meta name="theme-color" content="#111111">
+		<meta property="og:title" content="Application Development | D. Joseph Carpenter">
+		<meta property="og:description" content="Application and web development portfolio featuring software tools, portfolio builds, and code-connected projects.">
+		<meta property="og:image" content="Headshot.jpg">
+		<link rel="icon" type="image/png" href="UTC logo.png">
+		<link rel="stylesheet" href="site.css">
+		<style>
+			.dev-card p,
+			.template-card p,
+			.code-card p,
+			.code-card li,
+			.showcase-note p {color: #d7d7d7;}
+			.template-meta,
+			.code-list,
+			.readiness-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.template-meta li,
+			.code-list li,
+			.readiness-list li {
+				padding: 10px 0;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			.template-meta li:last-child,
+			.code-list li:last-child,
+			.readiness-list li:last-child {border-bottom: 0; padding-bottom: 0;}
+			.template-meta strong,
+			.code-list strong {color: #ffffff;}
+			.dev-grid,
+			.code-grid,
+			.template-grid {margin-top: 10px;}
+			.dev-card,
+			.template-card,
+			.code-card,
+			.showcase-note {height: 100%;}
+			.code-sample {
+				margin-top: 18px;
+				padding: 16px;
+				border-radius: 14px;
+				background: rgba(0, 0, 0, 0.26);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				overflow-x: auto;
+			}
+			.code-sample code {
+				font-family: Consolas, "Courier New", monospace;
+				color: #f5f5f5;
+				font-size: 14px;
+			}
+			.section-label {
+				display: inline-block;
+				margin-bottom: 14px;
+				color: #ffd54f;
+				font-size: 0.8rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.12em;
+			}
+			@media (max-width: 767px) {
+				.code-sample {padding: 14px;}
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#main-content" class="skip-link">Skip to main content</a>
+		<nav class="navbar navbar-inverse" aria-label="Primary">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" aria-controls="site-navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">D. Joseph Carpenter</a>
+			</div>
+			<div class="collapse navbar-collapse" id="site-navbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About_me.html">About Me</a></li>
+				<li class="dropdown active">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Projects <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="Research.html">Research</a></li>
+						<li><a href="Dashboards.html">Dashboards</a></li>
+						<li class="active"><a href="appDev.html" aria-current="page">Application Development <span class="sr-only">(current)</span></a></li>
+					</ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="Blog.html">Blog</a></li>
+				<li class="dropdown">
+					<button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contact <span class="caret" aria-hidden="true"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="Contact_Info.html">Contact Information</a></li>
+						<li><a href="Resume_CV.html">Resume/CV</a></li>
+						<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+						<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="Send_Message.html">Send a Message</a></li>
+					</ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<main id="main-content">
+			<div class="page-section">
+				<div class="container">
+					<p class="eyebrow">Build + Ship</p>
+					<h1>Application Development</h1>
+					<p class="page-intro">This page is ready to showcase portfolio sites, web apps, data tools, and other software projects. It is also structured to let you connect each build to source code, design choices, and any analysis or scripting that supports it.</p>
+
+					<div class="row template-grid">
+						<div class="col-md-7">
+							<section class="dev-card surface-card content-card" aria-labelledby="appdev-ready-title">
+								<h2 id="appdev-ready-title">What This Page Can Showcase</h2>
+								<p>You mentioned wanting to include this site, future applications, and relevant R code. This layout supports all three without needing a separate redesign later.</p>
+								<ul class="readiness-list">
+									<li>Feature this portfolio site as a real project with goals, structure, accessibility, and design decisions.</li>
+									<li>Add standalone web apps or software tools with screenshots, demos, and source links.</li>
+									<li>Attach R code to the projects where it matters most instead of burying it somewhere separate.</li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-md-5">
+							<section class="showcase-note surface-card content-card" aria-labelledby="appdev-note-title">
+								<h2 id="appdev-note-title">Good Fit For This Page</h2>
+								<p>This page works well for websites, small tools, interactive apps, reporting utilities, and coding-heavy project write-ups. If a project includes code, analysis, and a user-facing output, it belongs here.</p>
+							</section>
+						</div>
+					</div>
+
+					<div class="page-section-tight">
+						<span class="section-label">Featured Project Template</span>
+						<div class="row dev-grid">
+							<div class="col-md-6">
+								<section class="template-card surface-card content-card" aria-labelledby="site-project-title">
+									<h2 id="site-project-title">This Portfolio Website</h2>
+									<p>This is a ready-made slot for the site you are building right now.</p>
+									<ul class="template-meta">
+										<li><strong>Goal:</strong> Present research, dashboards, coding work, and contact information in one portfolio.</li>
+										<li><strong>Stack:</strong> HTML, CSS, and JavaScript.</li>
+										<li><strong>Focus Areas:</strong> Shared layout system, accessibility, mobile responsiveness, and portfolio storytelling.</li>
+										<li><strong>What To Highlight:</strong> Custom navigation, shared styling, research project structure, and future dashboard/app sections.</li>
+										<li><strong>Code Link:</strong> [Add GitHub repository or code snapshot link here.]</li>
+									</ul>
+									<div class="button-row">
+										<a href="index.html" class="btn btn-primary" aria-label="View this portfolio site">View Site</a>
+										<button type="button" class="btn btn-default btn-disabled" disabled aria-label="Portfolio code link coming soon">View Code</button>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-6">
+								<section class="template-card surface-card content-card" aria-labelledby="app-template-title">
+									<h2 id="app-template-title">[Web App or Software Project]</h2>
+									<p>Use this for your next coded project, whether it is a web app, utility, interactive tool, or software workflow.</p>
+									<ul class="template-meta">
+										<li><strong>Goal:</strong> [What problem did the app solve?]</li>
+										<li><strong>Users:</strong> [Who was it built for?]</li>
+										<li><strong>Stack:</strong> [HTML / CSS / JavaScript / R / Python / SQL / other]</li>
+										<li><strong>Key Decisions:</strong> [What was technically or conceptually important?]</li>
+										<li><strong>Outcome:</strong> [What did the final tool let users do?]</li>
+										<li><strong>Code Link:</strong> [GitHub or file link]</li>
+									</ul>
+									<div class="button-row">
+										<button type="button" class="btn btn-primary btn-disabled" disabled aria-label="Live app link coming soon">Live Demo</button>
+										<button type="button" class="btn btn-default btn-disabled" disabled aria-label="Source code link coming soon">Source Code</button>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-section-tight">
+						<span class="section-label">Code + Methods</span>
+						<div class="row code-grid">
+							<div class="col-md-6">
+								<section class="code-card surface-card content-card" aria-labelledby="r-code-title">
+									<h2 id="r-code-title">R Code Showcase</h2>
+									<p>This gives you a place to share R code in a way that feels connected to your projects instead of separate from them.</p>
+									<ul class="code-list">
+										<li><strong>Best Use:</strong> Link R scripts to research projects, dashboards, or reproducible analyses.</li>
+										<li><strong>Good Content:</strong> Cleaning scripts, plotting workflows, models, report generation, or Shiny app logic.</li>
+										<li><strong>How To Present It:</strong> Short explanation, small code sample, and a link to the full script or repository.</li>
+									</ul>
+									<div class="code-sample">
+<code># Example project note
+library(tidyverse)
+
+results <- survey_data %&gt;%
+  filter(!is.na(group)) %&gt;%
+  group_by(group) %&gt;%
+  summarize(mean_score = mean(score, na.rm = TRUE))</code>
+									</div>
+								</section>
+							</div>
+							<div class="col-md-6">
+								<section class="code-card surface-card content-card" aria-labelledby="code-integration-title">
+									<h2 id="code-integration-title">Where Code Can Live On The Site</h2>
+									<ul class="code-list">
+										<li><strong>Inside App Projects:</strong> Best for code directly tied to a tool or website.</li>
+										<li><strong>Inside Dashboard Projects:</strong> Good for R, SQL, or Python that powers visuals or reporting logic.</li>
+										<li><strong>Inside Research Projects:</strong> Best for methods or analysis scripts tied to a specific study.</li>
+										<li><strong>Future Code Page:</strong> Useful later if you want a central page for R, Python, and SQL samples.</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-section-tight">
+						<section class="surface-card content-card" aria-labelledby="appdev-next-title">
+							<h2 id="appdev-next-title">Next Projects You Could Add</h2>
+							<p>You could use this page for this portfolio site, a future R Shiny dashboard, a JavaScript data explorer, a survey reporting tool, or any lightweight research-support app you build later.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>D. Joseph Carpenter</h4>
+						<p>Data Analyst and Researcher focused on statistical modeling, survey analysis, and dashboards.</p>
+					</div>
+					<div class="col-md-4">
+						<h4>Quick Links</h4>
+						<ul class="footer-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="About_me.html">About</a></li>
+							<li><a href="Research.html">Research</a></li>
+							<li><a href="Dashboards.html">Dashboards</a></li>
+							<li><a href="appDev.html">Application Development</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h4>Contact</h4>
+						<ul class="footer-links">
+							<li>Email: <a href="mailto:daniel-carpenter@utc.edu">daniel-carpenter@utc.edu</a></li>
+							<li>Phone: (xxx)xxx-xxxx</li>
+							<li><a href="https://www.linkedin.com/in/daniel-carpenter-a06634197/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile opens in a new tab">LinkedIn</a></li>
+							<li><a href="https://github.com/Joe4747549" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile opens in a new tab">GitHub</a></li>
+							<li><a href="Send_Message.html">Send a Message</a></li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="text-center">
+					<p>&copy; 2026 Daniel Joseph Carpenter. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="site.js"></script>
+	</body>
+</html>
